@@ -7,7 +7,7 @@ from isTriangle import Triangle
 
 class TriangleTest(unittest.TestCase):
     def test_is_equilateral(self):
-        actual = Triangle.classify(10, 10, 10)
+        actual = Triangle.classify(5, 5, 5)
         expected = Triangle.Type.EQUILATERAL
         self.assertEqual(actual, expected)
 
